@@ -1,0 +1,44 @@
+Script started on Thu 26 Sep 2019 08:47:26 PM PDT
+]0;colinkwi@klaatu:~[?1034h[colinkwi@klaatu ~]$ whoami
+colinkwi
+]0;colinkwi@klaatu:~[colinkwi@klaatu ~]$ echo $SHELL
+/bin/bash
+]0;colinkwi@klaatu:~[colinkwi@klaatu ~]$ pwd
+/homes/colinkwi
+]0;colinkwi@klaatu:~[colinkwi@klaatu ~]$ uname -a
+Linux klaatu.cs.washington.edu 4.14.145-1.el7.retpoline.x86_64 #1 SMP Thu Sep 19 08:49:41 PDT 2019 x86_64 x86_64 x86_64 GNU/Linux
+]0;colinkwi@klaatu:~[colinkwi@klaatu ~]$ gcc --version -std=c11
+gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+]0;colinkwi@klaatu:~[colinkwi@klaatu ~]$ du
+8	./.config/configstore
+12	./.config
+8	./.vim
+4	./.mozilla/extensions
+4	./.mozilla/plugins
+12	./.mozilla
+68	.
+]0;colinkwi@klaatu:~[colinkwi@klaatu ~]$ df
+Filesystem     1K-blocks     Used Available Use% Mounted on
+devtmpfs         2006732        0   2006732   0% /dev
+tmpfs            2020308        0   2020308   0% /dev/shm
+tmpfs            2020308    66504   1953804   4% /run
+tmpfs            2020308        0   2020308   0% /sys/fs/cgroup
+/dev/sda2       18447056  8382400   9104556  48% /
+/dev/sdc1       30831612 14175964  15066452  49% /homes
+/dev/sda4        1929616     8208   1805340   1% /tmp
+/dev/sda3        1998672  1063028    814404  57% /var
+tmpfs             404064        0    404064   0% /run/user/28640
+tmpfs             404064        0    404064   0% /run/user/28638
+tmpfs             404064        0    404064   0% /run/user/28550
+tmpfs             404064        0    404064   0% /run/user/28604
+tmpfs             404064        0    404064   0% /run/user/28559
+tmpfs             404064        0    404064   0% /run/user/28627
+tmpfs             404064        0    404064   0% /run/user/28569
+]0;colinkwi@klaatu:~[colinkwi@klaatu ~]$ sudo [K[K[K[K[Kexit
+exit
+
+Script done on Thu 26 Sep 2019 08:49:15 PM PDT
